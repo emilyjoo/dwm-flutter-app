@@ -13,24 +13,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes:{
-        "/": (context)=>HomPage(),
-        "/counter": (context)=>Counter(),
-        "/contact": (context)=>Contact(),
+      debugShowCheckedModeBanner: false,
+      routes: {
+        "/": (context) => HomPage(),
+        "/counter": (context) => Counter(),
+        "/contact": (context) => Contact(),
       },
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-            seedColor: Colors.teal
-        ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
         primaryColor: Colors.teal,
-        textTheme: TextTheme(
-          bodyLarge: TextStyle(fontSize: 22)
-        )
+        textTheme: TextTheme(bodyLarge: TextStyle(fontSize: 22)),
       ),
     );
   }
 }
-
-
-
-

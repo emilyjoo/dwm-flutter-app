@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class HomPage extends StatelessWidget {
   const HomPage({super.key});
   @override
@@ -17,8 +18,8 @@ class HomPage extends StatelessWidget {
                   ),
                   CircleAvatar(
                     backgroundImage: AssetImage("images/profile.png"),
-                    radius: 40,
-                  )
+                    radius: 30,
+                  ),
                 ],
               ),
               decoration: BoxDecoration(
@@ -28,24 +29,36 @@ class HomPage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text("Home", style: Theme.of(context).textTheme.bodyLarge) ,
-              onTap: (){
+              leading: Icon(Icons.home),
+              trailing: Icon(Icons.arrow_forward),
+              title: Text("Home", style: Theme.of(context).textTheme.bodyLarge),
+              onTap: () {
                 Navigator.of(context).pop();
                 Navigator.pushNamed(context, "/");
               },
             ),
-            Divider(),
+            Divider(height: 1, color: Theme.of(context).primaryColor),
             ListTile(
-              title: Text("Counter", style: Theme.of(context).textTheme.bodyLarge) ,
-              onTap: (){
+              leading: Icon(Icons.ac_unit),
+              trailing: Icon(Icons.arrow_forward),
+              title: Text(
+                "Counter",
+                style: Theme.of(context).textTheme.bodyLarge,
+              ),
+              onTap: () {
                 Navigator.of(context).pop();
                 Navigator.pushNamed(context, "/counter");
               },
             ),
-            Divider(),
+            Divider(height: 1, color: Theme.of(context).primaryColor),
             ListTile(
-              title: Text("Contact", style: Theme.of(context).textTheme.bodyLarge) ,
-              onTap: (){
+              leading: Icon(Icons.contact_page),
+              trailing: Icon(Icons.arrow_forward),
+              title: Text(
+                "Contact",
+                style: Theme.of(context).textTheme.bodyLarge,
+              ),
+              onTap: () {
                 Navigator.of(context).pop();
                 Navigator.pushNamed(context, "/contact");
               },
@@ -54,11 +67,10 @@ class HomPage extends StatelessWidget {
         ),
       ),
       appBar: AppBar(
-        title: Text("Home", style: TextStyle(color :Colors.black),),
-        backgroundColor: Theme.of(context).primaryColor,),
-      body: Center(
-        child: Text("Home page"),
+        title: Text("Home", style: TextStyle(color: Colors.black)),
+        backgroundColor: Theme.of(context).primaryColor,
       ),
+      body: Center(child: Text("Home page")),
     );
   }
 }
