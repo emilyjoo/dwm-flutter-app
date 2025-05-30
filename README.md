@@ -13,10 +13,14 @@ A simple Flutter application demonstrating multi-page navigation with theme cust
 
 ## Screenshots
 <!-- Replace these with your actual screenshots -->
-| Home Page | Menu | Counter Page |
-|-----------|--------------|--------------|
-![image](https://github.com/user-attachments/assets/7be32dcc-c423-42dc-952a-2a969623dedd) />
+| Home Page |
+|-----------|
+![image](https://github.com/user-attachments/assets/7be32dcc-c423-42dc-952a-2a969623dedd) /
+| Menu |
+|--------------|
 ![image](https://github.com/user-attachments/assets/020d004f-82fc-44d0-89e1-2d22986f7f75)
+| Counter Page |
+|--------------|
 ![image](https://github.com/user-attachments/assets/ed56dae2-eb96-472d-9897-dcca7ab644bd)
 
 
