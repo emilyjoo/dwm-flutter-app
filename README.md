@@ -15,9 +15,10 @@ A simple Flutter application demonstrating multi-page navigation with theme cust
 <!-- Replace these with your actual screenshots -->
 | Home Page | Menu | Counter Page |
 |-----------|--------------|--------------|
-<img width="129" alt="homepage" src="https://github.com/user-attachments/assets/a062c324-bd64-41bd-81a5-d3d586b64a6f" />
-<img width="126" alt="menu" src="https://github.com/user-attachments/assets/ce0ca40c-1459-49ec-ae37-4d48bf8739e4" />
-<img width="128" alt="counterpage" src="https://github.com/user-attachments/assets/92837d25-be69-4c45-9110-e9e424bb1c76" />
+![image](https://github.com/user-attachments/assets/7be32dcc-c423-42dc-952a-2a969623dedd) />
+![image](https://github.com/user-attachments/assets/020d004f-82fc-44d0-89e1-2d22986f7f75)
+![image](https://github.com/user-attachments/assets/ed56dae2-eb96-472d-9897-dcca7ab644bd)
+
 
 ## Getting Started
 
